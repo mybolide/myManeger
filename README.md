@@ -20,4 +20,5 @@ npm run build
 2.使用vue-cli-plugin-electron-builder添加electron插件  
 3.ui框架element-ui  
 4.目前功能  
-  1)管理本地nginx
+  &nbsp;&nbsp;&nbsp;&nbsp;1)管理本地nginx  
+  &nbsp;&nbsp;&nbsp;&nbsp;2)目前只测试了MACOS windows未测试

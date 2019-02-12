@@ -22,6 +22,6 @@ const assetsRouter = [
 ]
 store.commit('SET_PERMISSION_ROUTERS', assetsRouter)
 export default new Router({
-  mode: 'history',
+  // mode: 'history',
   routes: assetsRouter
 })
