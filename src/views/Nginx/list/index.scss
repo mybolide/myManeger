@@ -1,0 +1,11 @@
+.nginx-container{
+  height: 100%;
+  .p-status{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    i{
+      padding-left: 10px;
+    }
+  }
+}

@@ -186,3 +186,15 @@ body {
 .breadcrumb-leave-active {
   position: absolute;
 }
+.m20{
+  margin: 20px 0;
+}
+.info-class{
+  width: 1000px!important;
+}
+.danger{
+  color: #F56C6C;
+}
+.success{
+  color: #67C23A;
+}

@@ -41,8 +41,12 @@ export default {
   z-index: 2;
   width: 200px;
   height: 100%;
+  overflow: hidden;
   @media (max-width: 1201px) {
     width: 180px;
+  }
+  /deep/ .scrollbar-wrapper{
+    overflow: hidden;
   }
 }
 .app-main {

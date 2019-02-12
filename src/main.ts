@@ -2,16 +2,18 @@ import Vue from 'vue'
 import App from './App.vue'
 import store from './store'
 import router from './router'
-import './registerServiceWorker'
+import Global from '@/utils/global'
+
 import './components/index'
 
 Vue.config.productionTip = false
+Vue.prototype.GLOBAL = new Global()
+
 new Vue({
   router,
   store,
   render: h => h(App),
-  mounted() {
-    // Prevent blank screen in Electron builds
-    this.$router.push('/')
+  mounted () {
+    // this.$router.push('/')
   }
 }).$mount('#app')
